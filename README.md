@@ -18,20 +18,31 @@ To run this project, install the required libraries as listed in `requirements.t
 ### Usage
 Execute the Jupyter notebook `Bank Data Chrun.ipynb.ipynb` to follow the data analysis, preprocessing, model training, and evaluation steps. The analysis is documented in a Jupyter notebook named `Bank Data Chrun.ipynb`. 
 
-### To view the analysis, run: jupyter notebook `Bank Data Chrun.ipynb.ipynb`, or you can refer to the PDF file as well.
+### To view the analysis:
+run: jupyter notebook `Bank Data Chrun.ipynb.ipynb`, or you can refer to the PDF file as well.
 
+## Model File
 
+The `final_model.joblib` file contains the trained machine learning model used for predicting customer churn. This model was trained using the Random Forest algorithm (or specify the algorithm you used) and can be loaded for making predictions without the need to retrain.
+
+### Loading the Model
+
+To load the model, use the following Python code:
+
+Python
+import joblib
+
+### Load the trained model
+model = joblib.load('final_model.joblib')
+
+### Now you can use the model to make predictions
+### predictions = model.predict(X_new)
+
+### Make sure to replace `X_new with the new data that you want to predict on, ensuring it has been preprocessed in the same way as the training data.
 
 ### Results and Conclusion
 Key findings and insights from the analysis will be summarized here, including the performance of the predictive model and recommendations for reducing customer churn.
 The project identifies key predictors of customer churn and employs machine learning models to predict the likelihood of churn for each customer. The findings and recommendations for improving customer retention are detailed in the notebook.
-
-
-# Customer Churn Prediction for Bank Savings Accounts
-
-## Project Overview
-This project focuses on predicting customer churn for a bank's savings account product. The objective is to identify customers likely to churn, i.e., whose account balances may fall below the minimum required balance, using demographic and transactional data.
-
 
 ## Technologies Used
 - Python for data processing and machine learning.
