@@ -24,5 +24,5 @@ Key findings and insights from the analysis will be summarized here, including t
 - Scikit-learn for machine learning
 
 ## Contact Information
-For any queries or discussions, reach out to ## Me at rishabhsharma1600@gmail.com.
+For any queries or discussions, reach out to me at rishabhsharma1600@gmail.com.
 
