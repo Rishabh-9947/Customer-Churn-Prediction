@@ -9,3 +9,20 @@ The dataset includes demographic information (age, gender, occupation, city), cu
 
 ## Installation
 To run this project, install the required libraries as listed in `requirements.txt`:
+
+## pip install -r requirements.txt
+### Usage
+Execute the Jupyter notebook `churn_prediction_analysis.ipynb` to follow the data analysis, preprocessing, model training, and evaluation steps.
+
+### Results and Conclusion
+Key findings and insights from the analysis will be summarized here, including the performance of the predictive model and recommendations for reducing customer churn.
+
+### Technologies Used
+- Python
+- Pandas for data manipulation
+- Matplotlib and Seaborn for visualization
+- Scikit-learn for machine learning
+
+## Contact Information
+For any queries or discussions, reach out to ## Me at rishabhsharma1600@gmail.com.
+
